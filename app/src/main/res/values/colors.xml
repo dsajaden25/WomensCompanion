@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ccccff</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#E31B85</color>
+    <color name="colorDayT">#ffff7a</color>
+    <color name="colorDayB">#a0e6ff</color>
+    <color name="black">#000000</color>
+    <color name="upArrow">#ddffca</color>
+    <color name="downArrow">#ffbdff</color>
+    <color name="BlueIris">#703ACF</color>
+    <color name="Purple">#9271C2</color>
+    <color name="Ivory">#FFF2FF</color>
+    <color name="DarkBlue">#2D1674</color>
+    <color name="White">#FFFFFF</color>
+
+
+
+</resources>

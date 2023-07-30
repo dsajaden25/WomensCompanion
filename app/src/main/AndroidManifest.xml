@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miniproj.WomensCompanion">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.breathing.BreathingVideoActivity"
+            android:exported="false" />
+        <!-- Main Splash Page -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Login Page -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.login.LoginActivity" /> <!-- Registration Page -->
+        <activity
+            android:name="com.miniproj.WomensCompanion.ui.register.RegisterActivity"
+            android:label="@string/app_name"></activity> <!-- Main Page -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.home.MainActivity" /> <!-- Profile Page -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.profile.ProfileActivity" /> <!-- Todo List -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.ToDoList.ToDoListActivity" /> <!-- ADHD Questionnaire -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.adhd.adhdActivity" />
+        <activity android:name="com.miniproj.WomensCompanion.ui.adhd.adhdResultActivity" /> <!-- Anxiety Questionnaire -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.anxiety.anxietyActivity" />
+        <activity android:name="com.miniproj.WomensCompanion.ui.anxiety.anxietyResultActivity" /> <!-- Bipolar Questionnaire -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.bipolar.bipolarActivity" />
+        <activity android:name="com.miniproj.WomensCompanion.ui.bipolar.bipolarResultActivity" />
+        <activity android:name="com.miniproj.WomensCompanion.ui.helpline.helplineActivity" /> <!-- Depression Questionnaire -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.depression.depressionActivity" />
+        <activity android:name="com.miniproj.WomensCompanion.ui.depression.depressionResultActivity" /> <!-- OCD Questionnaire -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.ocd.ocdActivity" />
+        <activity android:name="com.miniproj.WomensCompanion.ui.ocd.ocdResultActivity" /> <!-- PTSD Questionnaire -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.ptsd.ptsd" />
+        <activity android:name="com.miniproj.WomensCompanion.ui.ptsd.ptsdActivity" />
+        <activity android:name="com.miniproj.WomensCompanion.ui.ptsd.ptsdResultActivity" /> <!-- Mood Page -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.Mood.MoodActivity" />
+        <activity android:name="com.miniproj.WomensCompanion.ui.Mood.AddMoodActivity" /> <!-- Habit Page -->
+        <!-- Breathing Page -->
+        <activity
+            android:name=".ui.breathing.BreathingActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ui.breathing.BreathingExerciseActivity"
+            android:label="@string/app_name" />
+        <activity android:name="com.miniproj.WomensCompanion.ui.affirmations.aff_activity" /> <!-- Ambient Noise Player -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.ambient.AmbientActivity" />
+
+        <service android:name="com.miniproj.WomensCompanion.ui.ambient.MediaPlaybackService">
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService" />
+            </intent-filter>
+        </service> <!-- Emergency Contacts -->
+        <activity android:name="com.miniproj.WomensCompanion.ui.emergency.EmergencyContactsActivity" />
+        <activity android:name="com.miniproj.WomensCompanion.ui.quiz.QuizActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

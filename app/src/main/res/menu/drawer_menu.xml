@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"/>
+
+        <item android:id="@+id/nav_todo"
+            android:icon="@drawable/ic_todo"
+            android:title="ToDo"/>
+
+        <item android:id="@+id/nav_mood"
+            android:icon="@drawable/ic_mood"
+            android:title="Mood Tracker"/>
+
+        <item android:id="@+id/nav_breathe"
+            android:icon="@drawable/ic_breathe"
+            android:title="Breathe"/>
+
+        <item android:id="@+id/nav_aff"
+            android:icon="@drawable/ic_habit"
+            android:title="Affirmations"/>
+
+        <item android:id="@+id/nav_ambient"
+            android:icon="@drawable/ic_ambient"
+            android:title="Ambient"/>
+
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile"/>
+
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contacts"
+            android:title="Emergency Contacts" />
+
+        <item
+            android:id="@+id/nav_helpline"
+            android:icon="@drawable/ic_helpline"
+            android:title="Helpline" />
+
+    </group>
+
+</menu>

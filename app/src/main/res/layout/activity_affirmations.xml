@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/Ivory"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="900px"
+                android:text= "I’m allowed to take up space."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="My past is not a reflection of my future."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text=" I am strong enough to make my own decisions."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I’m in control of how I react to others."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I choose peace."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I’m courageous and stand up for myself."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I will succeed today."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I’m courageous and stand up for myself."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I deserve to feel joy."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I’m worthy of love."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I love myself deeply."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="My body is healthy, and I’m grateful."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I’m more at ease every day."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I’m calm, happy, and content"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="My life is a gift and I appreciate everything I have."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I don’t need someone else to feel happiness."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I’m allowed to take time to heal."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I don’t need someone else to feel happiness."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="The point of life is balance, not perfection."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I don’t need someone else to feel happiness."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I choose not to criticize myself or others around me."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="My potential to succeed is limitless."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="Difficult times allow me to appreciate the good times."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I forgive those who have hurt me."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I’m in charge of my life and no one will dictate my path besides me."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I’m doing my best and that is enough."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I have the power to create change."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I know exactly what to do to achieve success."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I choose to be proud of myself."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I will not compare myself to strangers on the internet."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I choose to be proud of myself."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I am enough."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I let go of all that no longer serves me."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="500px"
+                android:layout_marginTop="600px"
+                android:text="I love myself fully."
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textFontWeight="300"
+                android:textSize="70px"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
